@@ -4,8 +4,8 @@
   "description": "nodejs-app",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js",
-    "prod": "node index.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "keywords": [
     "node",
@@ -23,5 +23,13 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.7"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MireGo2013/Weather-Search.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MireGo2013/Weather-Search/issues"
+  },
+  "homepage": "https://github.com/MireGo2013/Weather-Search#readme"
 }
